@@ -1,0 +1,310 @@
+*,*::before,*::after {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+}
+html,body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}
+.profile-pic {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a.ad_title {
+    color: #666;
+    font-size: 17px;
+
+}
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: none;
+}
+.wrapper {
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse ;
+            flex-direction: column-reverse ;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+}
+.brand-name {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.btn {
+    padding: 5px;
+    vertical-align: center;
+    width: 17px;
+    height: 17px;
+    border: 0.5px solid rgba(255,255,255,0.3);
+    border-radius: 100px;
+}
+.btn:hover {
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+            box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+}
+.ethereum-btn {
+    background: #3C3C3D !important;
+}
+.facebook-btn {
+    background: #3B5998 !important;
+}
+.twitter-btn {
+    background: #1DA1F2 !important;
+}
+.menu {
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.nav-link {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+header#maxhead {
+    position: relative;
+    z-index: 0;
+    padding: 20px 10px;
+    background-image: url("images/bannner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+            box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    color: #FFF;
+}
+nav svg {
+    width: 15px;
+    height: 15px;
+}
+nav svg path {
+    fill: #FFF;
+}
+.btn-primary {
+    background: #3bb4c1;
+    color: #FFF;
+}
+.btn-secondary {
+    background: #e9e4e6;
+    color: #333;
+}
+#airdropKingList {
+   display: block;
+}
+.ak_card {
+    margin: 0 5px;
+}
+#airdropKingList .ak_card {
+    position: relative;
+    background: #FFF;
+    -webkit-box-shadow: 0px 4px 7px 0 rgba(0,0,0,0.1);
+            box-shadow: 0px 4px 7px 0 rgba(0,0,0,0.1);
+    margin-bottom: 10px;    
+}
+  
+  #airdropKingList .ak_card img {
+    height: 3.2em;
+    width: auto;
+    max-width: 3.2em;
+    overflow: hidden;
+    border-radius: 0.4rem;
+    vertical-align: top;
+    padding: 0.2em;
+  }
+  
+  #airdropKingList .ak_card > div {
+    display: inline-block;
+    padding: 0.35em 0 0 0.5em;
+  }
+  
+  #airdropKingList .ak_card .ad_title {
+    font-size: 0.9rem;
+    display: block;
+  }
+  
+  #airdropKingList .ak_card span {
+    padding: 0.25em 0;
+    font-size: 0.7rem;
+  }
+  
+  #airdropKingList .ak_card span.value {
+    padding-right: 1em;
+    font-weight: 700;
+    opacity: 0.7;
+  }
+  
+  #airdropKingList .ak_card span.rating {
+    color: #26b99a;
+  }
+  
+  #airdropKingList .ak_card span.days_left {
+    position: absolute;
+    opacity: 0.5;
+    bottom: 0;
+    padding: 5px 0;
+    right: 0.5em;
+    font-size: 0.6rem;
+  }
+  
+  /* Icons
+     Those are svg files from the javascript file */
+  
+  #airdropKingList .icn {
+    height: 1.1em;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: -0.2em;
+  }
+  
+  #airdropKingList .icn.icn-money {
+    padding-right: 0.5em;
+  }
+  
+  #airdropKingList .icn.icn-money .color {
+    fill: #999999;
+  }
+  
+  #airdropKingList .icn.icn-thumbs-up {
+    padding-right: 0.2em;
+  }
+  
+  #airdropKingList .icn.icn-thumbs-up .color {
+    fill: #26b99a;
+  }
+  .ak_card img {
+      border-radius: 100px !important;
+  }
+  .recents {
+      margin: 0 3px 10px 3px;
+      padding-bottom: 5px;
+      color: #888;
+      font-size: 17px;
+      text-transform: uppercase;
+      border-bottom: 0.5px solid rgba(0,0,0,0.3);
+  }
+  footer#maxfoot {
+      padding: 20px;
+      border-top: 0.5px solid rgba(0,0,0,0.2);
+  }
+  footer#maxfoot {
+      color: #888;
+  }
+#valuesplace-2 {
+   position: absolute;
+   top: -100px;
+}
+@-webkit-keyframes momo {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-100px);
+               transform: translateY(-100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes momo {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-100px);
+               transform: translateY(-100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+    }
+}
+.show {
+    display: block !important;
+}
+#notifications-1 {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    background: #FFF;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+            box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+    font-size: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-animation-name: momo;
+            animation-name: momo;
+    -webkit-animation-duration: .2s;
+            animation-duration: .2s;
+    display: none;
+}
+#notifications-1 #close-section-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    margin: 10px;
+}
+#notifications-1 svg {
+    width: 15px;
+    height: 15px;
+}
+
+.notification-content {
+    font-size: 12px;
+    color: #666;
+}
+.footer-attr {
+    font-size: 10px;
+    color: #888;
+    font-weight: 600;
+}
+.footer-attr > a {
+    color: #666;
+    font-style: italic;
+}
